@@ -9,5 +9,10 @@
             "email": "mengyang@larvata.tw"
         }
     ],
+    "autoload":{
+        "psr-4": {
+            "larvata\\videojs\\": ""
+        }
+    }
     "require": {}
 }
