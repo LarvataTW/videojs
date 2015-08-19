@@ -13,6 +13,6 @@
         "psr-4": {
             "larvata\\videojs\\": ""
         }
-    }
+    },
     "require": {}
 }
