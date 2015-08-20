@@ -9,11 +9,11 @@ class VideojsAsset extends AssetBundle{
             "assets/css/video-js.css"
         ];
 
-    public $js = []
+    public $js = [
             "assets/js/video.js",
             "assets/js/videojs-media-sources.js",
             "assets/js/videojs.hls.js"
-        ;
+            ];
 }
 
 ?>
