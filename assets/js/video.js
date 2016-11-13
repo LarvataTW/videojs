@@ -13547,7 +13547,8 @@ var Flash = (function (_Tech) {
 
   Flash.prototype.buffered = function buffered() {
     var ranges = this.el_.vjs_getProperty('buffered');
-    if (ranges.length === 0) {
+    //if (ranges.length === 0) {
+    if (typeof(ranges) != "object" || ranges.length === 0) {
       return _utilsTimeRangesJs.createTimeRange();
     }
     return _utilsTimeRangesJs.createTimeRange(ranges[0][0], ranges[0][1]);
