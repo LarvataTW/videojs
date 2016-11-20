@@ -10611,7 +10611,8 @@ var Player = (function (_Component) {
             _utilsLogJs2['default'](e);
           }
         }
-        throw e;
+        //throw e;
+        console.log(e);
       }
     }
 
